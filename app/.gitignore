@@ -8,3 +8,13 @@ app/gradle/
 app/gradlew
 app/gradlew.bat
 app/local.properties
+
+.gradle/2.4/taskArtifacts/cache.properties.lock
+.gradle/2.4/taskArtifacts/fileHashes.bin
+.gradle/2.4/taskArtifacts/fileSnapshots.bin
+.gradle/2.4/taskArtifacts/taskArtifacts.bin
+app/.gitignore
+app/.idea/vcs.xml
+app/.idea/workspace.xml
+app/local.properties
+build/intermediates/gradle_project_sync_data.bin
