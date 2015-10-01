@@ -1,0 +1,6 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">盛大游戏助手</string>
+    <string name="enter_app">立即体验</string>
+</resources>

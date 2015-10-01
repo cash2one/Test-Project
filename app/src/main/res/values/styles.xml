@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="Theme.Game.App" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@color/gray_bg</item>
+        <item name="android:windowBackground">@color/gray_bg</item>
+        <item name="actionBarStyle">@style/Theme.Game.App.NoActionBar</item>
+    </style>
+
+    <style name="Theme.Game.App.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

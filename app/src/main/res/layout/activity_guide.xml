@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GuideActivity">
+
+    <include layout="@layout/base_title_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:background="@color/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vp_guide"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/circlePageIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:layout_alignBottom="@+id/vp_guide"
+        android:paddingBottom="20dp"
+        />
+
+    </RelativeLayout>
+
+</LinearLayout>
