@@ -1,1 +1,10 @@
 /build
+app/app.iml
+.DS_Store
+.gradle/
+Test-Project.iml
+app/.idea/
+app/gradle/
+app/gradlew
+app/gradlew.bat
+app/local.properties
