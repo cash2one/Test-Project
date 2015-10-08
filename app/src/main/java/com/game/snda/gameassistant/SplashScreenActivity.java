@@ -30,9 +30,9 @@ public class SplashScreenActivity extends BaseActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                finish();
                 overridePendingTransition(R.anim.activity_zoom_enter, R.anim.activity_zoom_exit);
                 GuideActivity_.intent(SplashScreenActivity.this).start();
+                finish();
             }
         }, DELAY_TIME);
     }
