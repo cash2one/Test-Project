@@ -6,6 +6,7 @@ import android.widget.TextView;
 
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.sharedpreferences.Pref;
 import org.androidannotations.api.view.HasViews;
 
 /**
@@ -17,6 +18,8 @@ public abstract class BaseActivity extends ActionBarActivity implements HasViews
 
     private final static String TAG = BaseActivity.class.getSimpleName();
 
+    @Pref
+    protected BaseSharePerf_ baseSharePerf;
     @ViewById(R.id.tv_action_bar_text)
     protected TextView actionBarText;
 

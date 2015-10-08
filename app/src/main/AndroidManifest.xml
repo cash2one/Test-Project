@@ -12,16 +12,20 @@
         <meta-data android:name="APP_CHANNEL" android:value="GAME_ASSISTANT"/>
 
         <activity
-            android:name=".GuideActivity_">
+            android:name=".GuideActivity_"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Game.App.NoActionBar">
+
+        </activity>
+
+        <activity android:name=".SplashScreenActivity_"
+            android:theme="@style/Theme.Game.App.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <activity android:name=".SplashScreenActivity_"
-            android:screenOrientation="portrait">
         </activity>
 
     </application>

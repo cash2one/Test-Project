@@ -2,7 +2,9 @@ package com.game.snda.gameassistant;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.TextUtils;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
@@ -23,6 +25,9 @@ public class SplashScreenActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (TextUtils.isEmpty(baseSharePerf.hasGuideShow().get())) {
+            Toast.makeText(SplashScreenActivity.this, "splash", Toast.LENGTH_SHORT).show();
+        }
         SplashTime();
     }
 
@@ -32,6 +37,7 @@ public class SplashScreenActivity extends BaseActivity {
             public void run() {
                 overridePendingTransition(R.anim.activity_zoom_enter, R.anim.activity_zoom_exit);
                 GuideActivity_.intent(SplashScreenActivity.this).start();
+                baseSharePerf.edit().hasGuideShow().put("true").apply();
                 finish();
             }
         }, DELAY_TIME);

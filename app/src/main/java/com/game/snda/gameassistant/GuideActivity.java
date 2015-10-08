@@ -5,8 +5,11 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.game.snda.gameassistant.adapter.GuidePagerAdapter;
 import com.viewpagerindicator.CirclePageIndicator;
 
 import org.androidannotations.annotations.AfterViews;
@@ -25,17 +28,14 @@ public class GuideActivity extends BaseActivity {
     private final static String TAG = BaseActivity.class.getSimpleName();
 
     @ViewById(R.id.vp_guide)
-    ViewPager vp_guide;
+    ViewPager viewPager;
     @ViewById(R.id.circlePageIndicator)
     CirclePageIndicator circlePageIndicator;
-    @ViewById(R.id.iv_guide_view)
-    ImageView guideImageView;
-    @ViewById(R.id.tv_guide_view)
-    TextView guideTextView;
 
-
-    private List<View> guideView;
+    private GuidePagerAdapter pagerAdapter;
+    private List<RelativeLayout> guideView;
     private LayoutInflater inflater;
+    private TextView stepGuideTextView;
 
     @AfterViews
     void init() {
@@ -47,15 +47,31 @@ public class GuideActivity extends BaseActivity {
 
     private void initGuideViewLayout(LayoutInflater inflater) {
         guideView = new ArrayList<>(0);
-        View guide1 = inflater.inflate(R.layout.new_guide_layout, null);
-        guideImageView.setImageResource(R.drawable.splash);
-        guideImageView.setScaleType(ImageView.ScaleType.FIT_XY);
-        guideTextView.setVisibility(View.GONE);
+        RelativeLayout guide1 = (RelativeLayout) inflater.inflate(R.layout.new_guide_layout, null);
+        ((ImageView) guide1.findViewById(R.id.iv_guide_view)).setImageResource(R.drawable.splash);
+        ((TextView) guide1.findViewById(R.id.tv_guide_view)).setVisibility(View.GONE);
         guideView.add(guide1);
 
-        View guide2 = inflater.inflate(R.layout.new_guide_layout, null);
-        guideImageView.setImageResource(R.drawable.txz_step5);
-        guideImageView.setScaleType(ImageView.ScaleType.FIT_XY);
+        RelativeLayout guide2 = (RelativeLayout) inflater.inflate(R.layout.new_guide_layout, null);
+        ((ImageView) guide2.findViewById(R.id.iv_guide_view)).setImageResource(R.drawable.txz_step5);
+        stepGuideTextView = (TextView)guide2.findViewById(R.id.tv_guide_view);
+        stepGuideTextView.setVisibility(View.VISIBLE);
         guideView.add(guide2);
+
+        stepGuideTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(GuideActivity.this, "click", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        pagerAdapter = new GuidePagerAdapter(guideView);
+        viewPager.setAdapter(pagerAdapter);
+        circlePageIndicator.setViewPager(viewPager, 0);
+//        circlePageIndicator.setBackgroundColor(0xFFCCCCCC);
+//        circlePageIndicator.setRadius(10 * density);
+        circlePageIndicator.setPageColor(0x880000FF);
+        circlePageIndicator.setFillColor(0xFF888888);
+        circlePageIndicator.setStrokeColor(0xFF000000);
     }
 }

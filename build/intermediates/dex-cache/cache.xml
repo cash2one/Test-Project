@@ -2,32 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/zoubaolin/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.1/ac33174269a767fcbf3a944cdb3d52e07ef93bee/androidannotations-api-3.1.jar"
+        jar="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ac33174269a767fcbf3a944cdb3d52e07ef93bee">
-        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/androidannotations-api-3.1-d3caf6bc2a67efb7516fbd36b9bf4e3fe835a6b5.jar" />
-    </item>
-    <item
-        jar="/usr/local/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/support-annotations-22.2.1-6fc4a72f74c9832634e926b4566de7b669212e13.jar" />
-    </item>
-    <item
-        jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/libs/universal-image-loader-1.9.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f667a2f4f27542fe11a6781f5f7ac572d27afcec">
-        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/universal-image-loader-1.9.0-4a3c66c87e4715eba373fcbc3f0f14b7db924af0.jar" />
-    </item>
-    <item
-        jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/internal_impl-22.2.1-9c802a91aaa843c632204ed9c167a01eaea05974.jar" />
+        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/pre-dexed/portal/debug/classes-05d9635afeb4dd558009118b79cc951886f51c2f.jar" />
     </item>
     <item
         jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
@@ -37,18 +16,11 @@
         <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/classes-18581e09168ec7d0ed706c0f8cd27d7bd808c4de.jar" />
     </item>
     <item
-        jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/libs/gson-2.2.4.jar"
+        jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/libs/universal-image-loader-1.9.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
-        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/gson-2.2.4-9e0a0fb879ad95a0408bb1bfce89ad46512937f9.jar" />
-    </item>
-    <item
-        jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/classes-d5a730721ff438091064d9957e54b02a46c360db.jar" />
+        sha1="f667a2f4f27542fe11a6781f5f7ac572d27afcec">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/universal-image-loader-1.9.0-4a3c66c87e4715eba373fcbc3f0f14b7db924af0.jar" />
     </item>
     <item
         jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/libs/httpmime-4.1.3.jar"
@@ -58,11 +30,95 @@
         <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/httpmime-4.1.3-85fb67811700366be34567fc5b170896bf324880.jar" />
     </item>
     <item
+        jar="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/pre-dexed/portal/debug/internal_impl-22.2.1-7bb56a8d8ac124c30dffb59ffbafc02273b4922d.jar" />
+    </item>
+    <item
+        jar="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/libs/universal-image-loader-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f667a2f4f27542fe11a6781f5f7ac572d27afcec">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/pre-dexed/portal/debug/universal-image-loader-1.9.0-9576438b44327d44d1c60fa82416ca8b83ae36f9.jar" />
+    </item>
+    <item
+        jar="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/pre-dexed/portal/debug/gson-2.2.4-8ab45085cfc074dc26ec826508800b099548431d.jar" />
+    </item>
+    <item
+        jar="/usr/local/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/support-annotations-22.2.1-6fc4a72f74c9832634e926b4566de7b669212e13.jar" />
+    </item>
+    <item
+        jar="/Users/zoubaolin/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.1/ac33174269a767fcbf3a944cdb3d52e07ef93bee/androidannotations-api-3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ac33174269a767fcbf3a944cdb3d52e07ef93bee">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/androidannotations-api-3.1-d3caf6bc2a67efb7516fbd36b9bf4e3fe835a6b5.jar" />
+    </item>
+    <item
+        jar="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/pre-dexed/portal/debug/classes-a450615ee250f0466d82a0e3be3600e9832d1cf2.jar" />
+    </item>
+    <item
+        jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/gson-2.2.4-9e0a0fb879ad95a0408bb1bfce89ad46512937f9.jar" />
+    </item>
+    <item
+        jar="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/libs/httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/pre-dexed/portal/debug/httpmime-4.1.3-483e64d40042768b73dd3ae01600a3ee7c648fe8.jar" />
+    </item>
+    <item
+        jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/classes-d5a730721ff438091064d9957e54b02a46c360db.jar" />
+    </item>
+    <item
+        jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/internal_impl-22.2.1-9c802a91aaa843c632204ed9c167a01eaea05974.jar" />
+    </item>
+    <item
         jar="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/libs/androidasync-2.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="7b07bbed94717bfc4ed2c5e49baacbe1d46fca39">
         <dex dex="/Users/zoubaolin/AndroidStudioProjects/GameAssistant/app/build/intermediates/pre-dexed/portal/release/androidasync-2.0.0-acb44e1df86ee35f854a8b7a24b2566527295bf7.jar" />
+    </item>
+    <item
+        jar="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/pre-dexed/portal/debug/classes-dea45755885b9e9c7e4ee5dbe90138a0498b534c.jar" />
+    </item>
+    <item
+        jar="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/libs/androidasync-2.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7b07bbed94717bfc4ed2c5e49baacbe1d46fca39">
+        <dex dex="/Users/zoubaolin/AndroidStudioProjects/Test-Project/app/build/intermediates/pre-dexed/portal/debug/androidasync-2.0.0-bad23888221daa1d069b51bfc2cafc86419f0f9b.jar" />
     </item>
 
 </items>
