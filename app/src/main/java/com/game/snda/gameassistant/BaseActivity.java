@@ -1,6 +1,6 @@
 package com.game.snda.gameassistant;
 
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -14,7 +14,7 @@ import org.androidannotations.api.view.HasViews;
  * Created by zoubaolin on 15/9/25.
  */
 @EActivity
-public abstract class BaseActivity extends ActionBarActivity implements HasViews {
+public abstract class BaseActivity extends AppCompatActivity implements HasViews {
 
     private final static String TAG = BaseActivity.class.getSimpleName();
 

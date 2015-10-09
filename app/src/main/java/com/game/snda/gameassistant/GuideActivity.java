@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.game.snda.gameassistant.adapter.GuidePagerAdapter;
 import com.viewpagerindicator.CirclePageIndicator;
@@ -61,7 +60,8 @@ public class GuideActivity extends BaseActivity {
         stepGuideTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(GuideActivity.this, "click", Toast.LENGTH_SHORT).show();
+                finish();
+                MainActivity_.intent(GuideActivity.this).start();
             }
         });
 
