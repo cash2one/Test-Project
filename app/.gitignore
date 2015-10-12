@@ -9,7 +9,9 @@ app/gradlew
 app/gradlew.bat
 app/local.properties
 
-app/.idea/libraries/*
+app/.idea/libraries/cardview_v7_22_2_1.xml
+app/.idea/libraries/design_22_2_0.xml
+app/.idea/libraries/recyclerview_v7_22_2_1.xml
 
 .gradle/2.4/taskArtifacts/cache.properties.lock
 .gradle/2.4/taskArtifacts/fileHashes.bin

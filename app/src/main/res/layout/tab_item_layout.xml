@@ -18,6 +18,7 @@
         android:gravity="center"
         android:id="@+id/tab_title"
         android:textSize="18sp"
+        android:textColor="@drawable/custom_tab_text"
         android:text="111"/>
 
 
