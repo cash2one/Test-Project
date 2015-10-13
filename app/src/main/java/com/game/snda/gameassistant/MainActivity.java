@@ -43,8 +43,6 @@ public class MainActivity extends BaseActivity {
                 TencentFragment_.class, null);
         tabHost.addTab(tabHost.newTabSpec("Wechat").setIndicator(createTab("微信", drawablesList.get(3))),
                 WechatFragment_.class, null);
-
-
     }
 
     private View createTab(String title, StateListDrawable drawable) {

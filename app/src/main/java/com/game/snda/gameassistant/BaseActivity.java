@@ -1,5 +1,6 @@
 package com.game.snda.gameassistant;
 
+import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;

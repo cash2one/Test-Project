@@ -5,4 +5,9 @@
     <color name="gray_line">#d6d6d6</color>
     <color name="tab_text_selected">#191618</color>
     <color name="tab_text_normal">#ff3c08</color>
+    <!--toolbar的颜色-->
+    <color name="color_primary">#4876ff</color>
+    <!--状态栏的颜色-->
+    <color name="color_primary_dark">#3a5fcd</color>"
+    <color name="white">#ffffff</color>
 </resources>

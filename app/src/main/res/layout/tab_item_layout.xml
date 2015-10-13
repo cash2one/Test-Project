@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:background="#ffffff"
     android:layout_height="match_parent">
     
     <ImageView
@@ -17,9 +18,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:id="@+id/tab_title"
-        android:textSize="18sp"
-        android:textColor="@drawable/custom_tab_text"
-        android:text="111"/>
+        android:textColor="@drawable/custom_tab_text_color"
+        android:text="111"
+        android:background="@drawable/custom_tab_indicator"/>
 
 
 </LinearLayout>

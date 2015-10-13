@@ -13,13 +13,11 @@
 
         <activity
             android:name=".GuideActivity_"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.Game.App.NoActionBar">
+            android:screenOrientation="portrait">
 
         </activity>
 
         <activity android:name=".SplashScreenActivity_"
-            android:theme="@style/Theme.Game.App.NoActionBar"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,8 +27,7 @@
         </activity>
 
         <activity android:name=".MainActivity_"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.Game.App.NoActionBar">
+            android:screenOrientation="portrait">
 
         </activity>
 

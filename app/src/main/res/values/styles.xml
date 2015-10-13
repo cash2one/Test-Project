@@ -4,6 +4,8 @@
         <item name="android:colorBackground">@color/gray_bg</item>
         <item name="android:windowBackground">@color/gray_bg</item>
         <item name="actionBarStyle">@style/Theme.Game.App.NoActionBar</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Theme.Widget.TabPageIndicator</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
 
     <style name="Theme.Game.App.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
@@ -11,4 +13,70 @@
         <item name="android:windowNoTitle">true</item>
     </style>
 
+    <style name="Theme.Widget.TabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/custom_tab_indicator</item>
+        <item name="android:textAppearance">@style/Theme.Widget.TabPagerIndicator.TextAppearance</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Theme.Widget.TabPagerIndicator.TextAppearance" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@drawable/custom_tab_text_color</item>
+    </style>
+
+    <style name="customSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!--
+        background for the search query section(e.g. EditText)
+        <item name="android:queryBackground">...</item>
+
+        background for the actions section(e.g. voice, submit)
+        <item name="submitBackground">...</item>
+
+        close button icon
+        <item name="closeIcon">...</item>
+
+        search button icon
+        <item name="searchIcon">...</item>
+
+        go/commit button icon
+        <item name="goIcon">...</item>
+        
+        voice search button icon
+        <item name="voiceIcon">...</item>
+
+        commit icon show in the query suggestion row
+        <item name="commitIcon">...</item>
+
+        layout for query suggestion rows
+        <item name="suggestionRowLayout">...</item>
+        -->
+
+    </style>
+
+    <!--全屏幕拉伸-->
+    <style name="layout_full">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--自身大小-->
+    <style name="layout_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--横向分布-->
+    <style name="layout_horizontal" parent="layout_full">
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <!--纵向分布-->
+    <style name="layout_vertical" parent="layout_full">
+        <item name="android:layout_height">0dp</item>
+    </style>
 </resources>
