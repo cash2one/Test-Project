@@ -4,6 +4,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/color_primary"
+        android:minHeight="?attr/actionBarSize"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:id="@+id/textInputLayout_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_text_color"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:contentDescription="@string/amount"
+            android:hint="@string/amount"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_text_color"
+            android:layout_marginTop="@dimen/edit_text_margin_top"
+            android:contentDescription="@string/phone"
+            android:hint="@string/phone"/>
+
+    </android.support.design.widget.TextInputLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

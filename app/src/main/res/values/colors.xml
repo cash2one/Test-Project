@@ -10,4 +10,5 @@
     <!--状态栏的颜色-->
     <color name="color_primary_dark">#3a5fcd</color>"
     <color name="white">#ffffff</color>
+    <color name="black_text_color">#121212</color>
 </resources>

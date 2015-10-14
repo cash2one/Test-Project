@@ -3,6 +3,10 @@
     <style name="Theme.Game.App" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorBackground">@color/gray_bg</item>
         <item name="android:windowBackground">@color/gray_bg</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_primary</item>
+        <item name="android:textColorPrimary">@color/gray_bg</item>
         <item name="actionBarStyle">@style/Theme.Game.App.NoActionBar</item>
         <item name="vpiTabPageIndicatorStyle">@style/Theme.Widget.TabPageIndicator</item>
         <item name="android:windowContentOverlay">@null</item>
