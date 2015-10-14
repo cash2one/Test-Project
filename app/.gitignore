@@ -1,24 +1,23 @@
 /build
-app/app.iml
+app.iml
 .DS_Store
 .gradle/
 Test-Project.iml
-app/.idea/
-app/gradle/
-app/gradlew
-app/gradlew.bat
-app/local.properties
+.idea/
+gradle/
+gradlew
+gradlew.bat
+local.properties
 
-app/.idea/libraries/cardview_v7_22_2_1.xml
-app/.idea/libraries/design_22_2_0.xml
-app/.idea/libraries/recyclerview_v7_22_2_1.xml
+.idea/libraries/cardview_v7_22_2_1.xml
+.idea/libraries/design_22_2_0.xml
+.idea/libraries/recyclerview_v7_22_2_1.xml
 
 .gradle/2.4/taskArtifacts/cache.properties.lock
 .gradle/2.4/taskArtifacts/fileHashes.bin
 .gradle/2.4/taskArtifacts/fileSnapshots.bin
 .gradle/2.4/taskArtifacts/taskArtifacts.bin
-app/.gitignore
-app/.idea/vcs.xml
-app/.idea/workspace.xml
-app/local.properties
+.idea/vcs.xml
+.idea/workspace.xml
+local.properties
 build/intermediates/gradle_project_sync_data.bin
