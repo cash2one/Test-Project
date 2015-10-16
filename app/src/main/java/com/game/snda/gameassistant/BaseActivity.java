@@ -2,6 +2,7 @@ package com.game.snda.gameassistant;
 
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.androidannotations.annotations.EActivity;
@@ -22,6 +23,10 @@ public abstract class BaseActivity extends AppCompatActivity implements HasViews
     protected BaseSharePerf_ baseSharePerf;
     @ViewById(R.id.tv_action_bar_text)
     protected TextView actionBarText;
+    @ViewById(R.id.iv_toolBar_leftButton)
+    ImageView leftToolBarButton;
+    @ViewById(R.id.iv_toolBar_rightButton)
+    ImageView rightToolBarButton;
 
     /**
      * 设置标题栏的标题
@@ -33,6 +38,14 @@ public abstract class BaseActivity extends AppCompatActivity implements HasViews
             return;
         }
         actionBarText.setText(title);
+    }
+
+    protected void setActionBarLeftImage(int resId) {
+        leftToolBarButton.setImageResource(resId);
+    }
+
+    protected void setActionBarRightImage(int resId) {
+        rightToolBarButton.setImageResource(resId);
     }
 
 }

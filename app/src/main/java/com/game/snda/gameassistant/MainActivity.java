@@ -1,6 +1,8 @@
 package com.game.snda.gameassistant;
 
+import android.content.Context;
 import android.graphics.drawable.StateListDrawable;
+import android.telecom.TelecomManager;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -103,6 +105,10 @@ public class MainActivity extends BaseActivity {
         drawablesList.add(wechatDrawable);
 
         return drawablesList;
+    }
+
+    private void getPhoneInfo() {
+        TelecomManager telecomManager = (TelecomManager) this.getSystemService(Context.TELEPHONY_SERVICE);
     }
 
 }
