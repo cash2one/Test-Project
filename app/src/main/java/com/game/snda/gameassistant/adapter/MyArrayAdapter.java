@@ -1,6 +1,5 @@
 package com.game.snda.gameassistant.adapter;
 
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;

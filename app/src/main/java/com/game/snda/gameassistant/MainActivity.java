@@ -1,8 +1,5 @@
 package com.game.snda.gameassistant;
 
-import android.content.Context;
-import android.graphics.drawable.StateListDrawable;
-import android.telecom.TelecomManager;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -17,9 +14,6 @@ import com.game.snda.gameassistant.widget.MyFragmentTabHost;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by zoubaolin on 15/10/9.

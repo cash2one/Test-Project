@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/wrap_container"
+    android:layout_width="match_parent"
+    android:layout_height="64dp">
+
+    <RelativeLayout
+        android:id="@+id/menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_delete_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="删除"
+            android:textSize="26sp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:background="#f93f3c"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_unread_menu"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:text="标为未读"
+            android:textColor="#ffffff"
+            android:textSize="26sp"
+            android:gravity="center_vertical"
+            android:background="#f4cb41"
+            android:layout_toLeftOf="@+id/tv_delete_menu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_top_menu"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:text="置顶"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:gravity="center_vertical"
+            android:background="#898b83"
+            android:layout_toLeftOf="@id/tv_unread_menu"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/man"
+            android:id="@+id/iv_user_icon"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="新朋友"
+            android:id="@+id/tv_message_title"
+            android:layout_toRightOf="@+id/iv_user_icon"
+            android:layout_toLeftOf="@+id/tv_message_timestamp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_message_content"
+            android:text="浩瀚如烟请求加为好友"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_toRightOf="@+id/iv_user_icon"
+            android:layout_toLeftOf="@+id/tv_message_timestamp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_message_timestamp"
+            android:text="17:35"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
